@@ -700,6 +700,13 @@ section {
   }
 }
 
+.about-logo img{
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+
+  
+}
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
@@ -752,6 +759,7 @@ section {
 #gallery .content p{
   text-align:justify;
   text-justify:auto;
+  line-height: 2em;
 }
 #gallery .content{
   padding:50px;
@@ -864,8 +872,15 @@ section {
 
 .work-process .content h3 {
   font-weight: 600;
-  font-size: 26px;
+  font-size: 32px;
 }
+
+.work-process .content p {
+  text-align: justify;
+  line-height: 2em;
+  font-size: 1.2em;
+}
+
 
 .work-process .content ul {
   list-style: none;
@@ -885,6 +900,13 @@ section {
 .work-process .content p:last-child {
   margin-bottom: 0;
 }
+
+.work-process img{
+max-height: 300px;
+
+}
+
+
 
 /*--------------------------------------------------------------
 # Our Skills
