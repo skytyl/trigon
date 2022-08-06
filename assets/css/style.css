@@ -1074,6 +1074,11 @@ max-height: 300px;
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+#portfolio{
+ margin-top: 30px;
+
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -1348,13 +1353,10 @@ max-height: 300px;
   transition: 0.3s;
 }
 
-.pricing .btn-buy:hover {
-  background: #aacd6b;
-}
 
 .pricing .featured h3 {
   color: #fff;
-  background: #94c045;
+  background: rgb(11, 31, 59);
   box-shadow: 0 3px 7px rgba(148, 192, 69, 0.4);
 }
 
@@ -1369,6 +1371,11 @@ max-height: 300px;
   padding: 1px 0 3px 0;
   background: #94c045;
   color: #fff;
+}
+
+.pricing .img-fluid{
+max-height: 600px;
+
 }
 
 /*--------------------------------------------------------------
