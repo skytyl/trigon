@@ -1373,15 +1373,11 @@ max-height: 300px;
   color: #fff;
 }
 
-.pricing .img-fluid{
-max-height: 600px;
-
-}
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
-.faq {
+.faq h2 {
   padding-top: 60px;
 }
 
