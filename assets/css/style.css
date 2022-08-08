@@ -1092,7 +1092,7 @@ max-height: 300px;
   
 }
 
-.features .card-title a {
+.features .card-title span {
   color: #fff;
 }
 
@@ -1100,7 +1100,7 @@ max-height: 300px;
   color: #5e5e5e;
 }
 
-.features .read-more a {
+.features .read-more span {
   color: #777777;
   text-transform: uppercase;
   font-weight: 600;
@@ -1108,7 +1108,7 @@ max-height: 300px;
   transition: 0.4s;
 }
 
-.features .read-more a:hover {
+.features .read-more span:hover {
   text-decoration: underline;
 }
 
@@ -1117,13 +1117,15 @@ max-height: 300px;
   
 }
 
-.features .card:hover .read-more a,
+.features .card:hover .read-more span,
 .features .card:hover .card-title,
-.features .card:hover .card-title a,
+.features .card:hover .card-title span,
 .features .card:hover .card-text {
   
   color: #3c4133;
 }
+
+
 
 /*--------------------------------------------------------------
 # Portfolio
