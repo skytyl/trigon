@@ -962,8 +962,9 @@ section {
 }
 
 .work-process img{
-max-height: 300px;
+max-height:300px;
 
+object-fit:fill;
 }
 
 
@@ -1118,18 +1119,6 @@ max-height: 300px;
   text-decoration: underline;
 }
 
-.features .card:hover .card-body {
-  background: rgba(255, 255, 255, 0.9);
-  
-}
-
-.features .card:hover .read-more span,
-.features .card:hover .card-title,
-.features .card:hover .card-title span,
-.features .card:hover .card-text {
-  
-  color: #3c4133;
-}
 
 
 
